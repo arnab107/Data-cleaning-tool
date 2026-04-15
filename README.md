@@ -1,2 +1,20 @@
 # Data-cleaning-tool
-Python CLI tool for cleaning and validating datasets (CSV/Excel) with missing value handling, outlier detection, and multi-format file support
+
+this is a tool to clean and validate datasets
+
+# features
+- Supports CSV and Excel files (.csv, .xls, .xlsx)
+- Handles missing values automatically
+- Removes duplicate records
+- Detects and caps outliers using IQR
+- Generates cleaned dataset and report
+
+# how to use
+python3 cleaner.py <uncleaned file>
+
+# foe example
+python3 cleaner.py HousingData.csv
+
+# Output
+- Cleaned CSV file
+- Report file
