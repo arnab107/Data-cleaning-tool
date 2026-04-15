@@ -1,0 +1,52 @@
+Standard column names
+
+Removed 0 duplicate rows
+
+Missing values:
+crim       20
+zn         20
+indus      20
+chas       20
+nox         0
+rm          0
+age        20
+dis         0
+rad         0
+tax         0
+ptratio     0
+b           0
+lstat      20
+medv        0
+dtype: int64
+
+Handled missing values
+
+Outlier summary:
+crim: 81 outliers
+zn: 126 outliers
+indus: 0 outliers
+chas: 34 outliers
+nox: 0 outliers
+rm: 30 outliers
+age: 0 outliers
+dis: 5 outliers
+rad: 0 outliers
+tax: 0 outliers
+ptratio: 15 outliers
+b: 77 outliers
+lstat: 12 outliers
+medv: 40 outliers
+
+Data summary:
+             crim     zn       indus  ...           b       lstat        medv
+count  506.000000  506.0  506.000000  ...  506.000000  506.000000  506.000000
+mean     1.810211    0.0   11.028893  ...  381.918836   12.603340   21.877075
+std      2.623892    0.0    6.704679  ...   19.054913    6.835809    7.602976
+min      0.006320    0.0    0.460000  ...  344.106250    1.730000    5.062500
+25%      0.083235    0.0    5.190000  ...  375.377500    7.230000   17.025000
+50%      0.253715    0.0    9.690000  ...  391.440000   11.430000   21.200000
+75%      2.808720    0.0   18.100000  ...  396.225000   16.570000   25.000000
+max      6.896948    0.0   27.740000  ...  396.900000   30.580000   36.962500
+
+[8 rows x 14 columns]
+
